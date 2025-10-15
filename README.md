@@ -54,23 +54,7 @@ Cada carta representa um país com os seguintes atributos:
 - **Declaração das cartas:** países com seus atributos.  
 - **Menu interativo:** escolha de dois atributos via `switch`.  
 - **Comparação individual:** cada atributo é comparado e pontuado.  
-- **Soma e resultado final:** soma dos pontos determina o vencedor.  
-
----
-
-## 🖥️ Como Executar  
-
-1. Certifique-se de ter um compilador C instalado (como **GCC**).  
-2. Salve o código em um arquivo chamado, por exemplo, `super_trunfo.c`.  
-3. Compile o código no terminal:  
-   ```bash
-   gcc super_trunfo.c -o super_trunfo
-   ```
-4. Execute o programa:  
-   ```bash
-   ./super_trunfo
-   ```
-5. Siga as instruções na tela para escolher os atributos e ver o resultado.  
+- **Soma e resultado final:** soma dos pontos determina o vencedor.    
 
 ---
 
@@ -78,47 +62,7 @@ Cada carta representa um país com os seguintes atributos:
 
 - Linguagem: **C**  
 - Paradigma: Estruturado  
-- Recursos utilizados: `if`, `switch`, `printf`, `scanf`  
-- Sem uso de laços (`for`, `while`)  
-
+- Recursos utilizados: `if`, `switch`, `printf`, `scanf`
+  
 ---
 
-## 🏆 Exemplo de Execução  
-
-```
-=== SUPER TRUNFO - COMPARAÇÃO DUPLA ===
-
-Escolha o PRIMEIRO atributo para comparar:
-1. População
-2. Área
-3. PIB
-4. Pontos Turísticos
-5. Densidade Demográfica
-Opção: 3
-
-Escolha o SEGUNDO atributo (diferente do primeiro):
-1. População
-2. Área
-4. Pontos Turísticos
-5. Densidade Demográfica
-Opção: 5
-
-===== COMPARAÇÃO DOS ATRIBUTOS =====
-
-PIB - Brasil: 2179000000.00 | Japão: 4026000000.00
-Densidade Demográfica - Brasil: 25.07 | Japão: 328.06
-
-========================================
-Soma dos resultados individuais:
-Brasil: 1 pontos
-Japão: 1 pontos
-========================================
-Empate!
-```
-
----
-
-## 🧑‍💻 Autor  
-
-**Gabriela Tamico Oguro**  
-Projeto desenvolvido para consolidar o uso de **estruturas condicionais** e **menus interativos** em C.  
